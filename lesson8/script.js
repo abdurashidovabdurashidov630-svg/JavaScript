@@ -187,4 +187,4 @@ do {
   if (raqam2 % 2 === 0) son2 += raqam2;
   raqam2++;
 } while (raqam2 <= b);
-console.log(son2);
+console.log(son2);  
