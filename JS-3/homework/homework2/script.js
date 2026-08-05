@@ -20,4 +20,4 @@
 
 // const arr6 = [5, 23, 100, 45, 200, 78, 300];
 // let value6 = arr6.findLastIndex((v,i) => v >= 10 && v <= 99)
-// console.log(value6);
+// console.log(value6);  
