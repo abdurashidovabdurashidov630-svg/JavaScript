@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: grid;
+  place-content: center;
+  background: linear-gradient(rgba(239, 246, 255, 1), rgba(240, 253, 244, 1));
+  font-family: sans-serif;
+}
+form {
+  width: 448px;
+  height: 634px;
+  border-radius: 14px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgb(167, 167, 167);
+  position: relative;
+}
+form .header {
+  width: 446px;
+  height: 192px;
+  padding: 24px 0 24.5px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+form .header img {
+  width: 64px;
+}
+form .header h1 {
+  color: rgba(10, 10, 10, 1);
+  font-weight: 500;
+  font-size: 24px;
+  letter-spacing: 0.07px;
+}
+form .header p {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: -0.31px;
+  color: rgba(113, 113, 130, 1);
+}
+form .header .h1_p {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  text-align: center;
+}
+form .footer {
+  padding: 0 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.email_icon {
+  position: relative;
+}
+.email_icon input {
+  width: 398px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: rgba(243, 243, 245, 1);
+  padding-left: 40px;
+  overflow: hidden;
+  outline: none;
+}
+.email_icon img {
+  position: absolute;
+  top: 11px;
+  left: 12px;
+}
+.l_e {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.l_e label {
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: -0.15px;
+  color: rgba(10, 10, 10, 1);
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.form ::placeholder {
+  font-size: 16px;
+  letter-spacing: -0.31px;
+  font-weight: 400;
+}
+.btn {
+  background-color: rgb(212, 212, 212);
+  width: 398px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: -0.31px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: not-allowed;
+}
+.footer p {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: -0.15px;
+  color: rgba(113, 113, 130, 1);
+  position: absolute;
+  bottom: 30.5px;
+}
+.footer p a {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: -0.31px;
+  color: rgba(3, 2, 19, 1);
+  text-decoration: none;
+}
+.close,
+.open,
+.close2,
+.open2 {
+  width: 20px;
+  position: absolute;
+  left: -12px;
+}

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tranzaksiyalar</title>
+    <link rel="stylesheet" href="../css/tranzaksiyalar_d.css">
+</head>
+
+<body>
+    <div class="left">
+        <div class="xarajatlar">
+            <img src="../assets/icons/Container.svg" alt="img">
+            <div class="icon_h1">
+                <h1>Xarajatlar</h1>
+                <p>Boshqaruv tizimi</p>
+            </div>
+        </div>
+        <div class="sections">
+            <button class="a dashboard">
+                <img src="../assets/icons/dashboard_grey.svg" alt="img">
+                <p>Dashboard</p>
+            </button>
+            <button class="tranzaksiyalar">
+                <img src="../assets/icons/tranzaksiyalar_white.svg" alt="img">
+                <p>Tranzaksiyalar</p>
+            </button>
+            <button class="a file">
+                <img src="../assets/icons/file.svg" alt="img">
+                <p>Kategoriyalar</p>
+            </button>
+            <button class="a statistika">
+                <img src="../assets/icons/statistika.svg" alt="img">
+                <p>Statistika <sub class="Tez_kunda">Tez kunda</sub></p>
+            </button>
+            <button class="a user">
+                <img src="../assets/icons/user.svg" alt="img">
+                <p>Profil</p>
+            </button>
+        </div>
+    </div>
+
+    <div class="right">
+        <div class="main">
+            <div class="h1_date">
+                <div class="h1_p">
+                    <h1>Tranzaksiyalar</h1>
+                    <p>Barcha xarajat va daromadlar</p>
+                </div>
+                <button class="Yangi_tranzaksiya">
+                    <img src="../assets/icons/plus.svg" alt="+">
+                    <p>Yangi tranzaksiya</p>
+                </button>
+            </div>
+
+            <div class="tranzaksiyalar_wrapper">
+                <form onsubmit="return false;">
+                    <div class="inp_s">
+                        <img src="../assets/icons/search.svg" alt="🔍">
+                        <input type="search" placeholder="Qidirish...">
+                    </div>
+                    <div class="b_d_x">
+                        <button class="c barchasi_b" type="button">Barchasi</button>
+                        <button class="c daromad_b" type="button">Daromad</button>
+                        <button class="c xarajat_b" type="button">Xarajat</button>
+                    </div>
+                </form>
+
+                <div class="qoshilgan_tranzaksiyalar_wrapper">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <form class="Yangi_tranzaksiya_inp" onsubmit="return false;">
+        <div class="h1_x">
+            <h1>Yangi tranzaksiya</h1>
+            <img class="x" src="../assets/icons/x.svg" alt="x">
+        </div>
+        <div class="inps">
+            <div class="inp_l">
+                <label for="nomi">Nomi</label>
+                <input type="text" placeholder="Masalan: Supermarket" id="nomi">
+            </div>
+            <div class="inp_l">
+                <label for="sum">Summa(so'm)</label>
+                <input type="text" placeholder="0" id="sum">
+            </div>
+            <div class="inp_l">
+                <label for="k">Kategoriya</label>
+                <select id="k">
+                    <option>Ovqat</option>
+                    <option>Transport</option>
+                    <option>To'lovlar</option>
+                    <option>O'yin-kulgu</option>
+                    <option>Kafe</option>
+                    <option>Salomatlik</option>
+                    <option>Ish</option>
+                    <option>Sovg'alar</option>
+                </select>
+            </div>
+            <div class="inp_l">
+                <label for="date">Sana</label>
+                <input type="date" id="date">
+            </div>
+            <div class="b_l">
+                <label for="turi">Turi</label>
+                <div class="btns">
+                    <button type="button" class="xarajat_b_form">
+                        <img src="../assets/icons/xarajat_strelka.svg" alt="img">
+                        <p>Xarajat</p>
+                    </button>
+                    <button type="button" class="daromad_b_form">
+                        <img src="../assets/icons/daromad_strelka.svg" alt="img">
+                        <p>Daromad</p>
+                    </button>
+                </div>
+            </div>
+            <div class="b_q">
+                <button class="b_q_b" type="button">Bekor qilish</button>
+                <button class="b_q_q" type="button">Qo'shish</button>
+            </div>
+        </div>
+    </form>
+
+    <script src="../js/traznaksiyalar_d.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil</title>
+    <link rel="stylesheet" href="../css/profil.css">
+</head>
+
+<body>
+    <div class="left">
+        <div class="xarajatlar">
+            <img src="../assets/icons/Container.svg" alt="img">
+            <div class="icon_h1">
+                <h1>Xarajatlar</h1>
+                <p>Boshqaruv tizimi</p>
+            </div>
+        </div>
+        <div class="sections">
+            <button class="a dashboard">
+                <img src="../assets/icons/dashboard_grey.svg" alt="img">
+                <p>Dashboard</p>
+            </button>
+            <button class="a tranzaksiyalar">
+                <img src="../assets/icons/tranzaksiyalar.svg" alt="img">
+                <p>Tranzaksiyalar</p>
+            </button>
+            <button class="a file">
+                <img src="../assets/icons/file.svg" alt="img">
+                <p>Kategoriyalar</p>
+            </button>
+            <button class="a statistika">
+                <img src="../assets/icons/statistika.svg" alt="img">
+                <p>Statistika <sub class="Tez_kunda">Tez kunda</sub></p>
+            </button>
+            <button class="user" style="background-color: #030213;">
+                <img src="../assets/icons/user_white.svg" alt="img">
+                <p>Profil</p>
+            </button>
+        </div>
+    </div>
+
+    <div class="right">
+        <div class="main">
+            <div class="h1_date">
+                <div class="h1_p">
+                    <h1>Profil</h1>
+                    <p>Shaxsiy ma'lumotlaringizni boshqaring</p>
+                </div>
+            </div>
+
+            <div class="main_p">
+                <div class="m_left">
+                    <div class="card profil_e_i">
+                        <img src="../assets/icons/user_img.svg" alt="user" style="cursor: pointer;">
+                        <div class="profil_malumot">
+                            <h2 class="foydalanuvchi_name">Foydalanuvchi</h2>
+                            <p class="email_text">user@example.com</p>
+                            <div class="alar">
+                                <span class="a premium">
+                                    <img src="../assets/icons/premium.svg" alt="">
+                                    Premium foydalanuvchi
+                                </span>
+                                <span class="a active">Faol</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card m_shaxsiy_malumotlar">
+                        <div class="b">
+                            <img src="../assets/icons/user_p.svg" alt="icon">
+                            <h3>Shaxsiy ma'lumotlar</h3>
+                        </div>
+                        <div class="form_grid">
+                            <div class="input">
+                                <label>Ism</label>
+                                <input type="text" placeholder="Foydalanuvchi" class="username">
+                            </div>
+                            <div class="input">
+                                <label>Email</label>
+                                <input type="email" placeholder="user@example.com" class="email">
+                            </div>
+                            <div class="input">
+                                <label>Telefon</label>
+                                <input type="text" placeholder="+998 90 123 45 67" class="tel">
+                            </div>
+                            <div class="input">
+                                <label>Manzil</label>
+                                <input type="text" placeholder="Toshkent, O'zbekiston" class="manzil">
+                            </div>
+                        </div>
+                        <button class="ozgarish">O'zgarishlarni saqlash</button>
+                    </div>
+
+                    <div class="card m_x_sozlamalar">
+                        <div class="b">
+                            <img src="../assets/icons/xavfsizlik.svg" alt="icon">
+                            <h3>Xavfsizlik sozlamalari</h3>
+                        </div>
+
+                        <div class="c">
+                            <div class="c_c">
+                                <img src="../assets/icons/lock.svg" alt="lock">
+                                <div>
+                                    <h4>Parolni o'zgartirish</h4>
+                                    <p>Oxirgi o'zgarish: 30 kun oldin</p>
+                                </div>
+                            </div>
+                            <div class="password_inputlar">
+                                <div class="p_i_p">
+                                    <input type="password" placeholder="Eski parol" class="password_e">
+                                    <img src="../assets/icons/eye_p.svg" alt="eye">
+                                </div>
+                                <div class="p_i_p">
+                                    <input type="password" placeholder="Yangi parol" class="password_y">
+                                    <img src="../assets/icons/eye_p.svg" alt="eye">
+                                </div>
+                            </div>
+                            <button class="btn_outline">Parolni yangilash</button>
+                        </div>
+
+                        <div class="c two_fa">
+                            <div class="c_c">
+                                <img src="../assets/icons/phone.svg" alt="phone">
+                                <div>
+                                    <h4>Ikki bosqichli autentifikatsiya</h4>
+                                    <p>Qo'shimcha xavfsizlik qatlami</p>
+                                </div>
+                            </div>
+                            <button class="yoqish">Yoqish</button>
+                        </div>
+                    </div>
+
+                    <div class="card m_sozlamalar">
+                        <div class="b">
+                            <img src="../assets/icons/globus.svg" alt="icon">
+                            <h3>Sozlamalar</h3>
+                        </div>
+
+                        <div class="s_r">
+                            <div class="s_i">
+                                <img src="../assets/icons/bildirish_n.svg" alt="">
+                                <div>
+                                    <h4>Push bildirishnomalar</h4>
+                                    <p>Yangi xarajatlar haqida xabarnoma</p>
+                                </div>
+                            </div>
+                            <label class="d">
+                                <input type="checkbox">
+                                <span class="e"></span>
+                            </label>
+                        </div>
+
+                        <div class="s_r">
+                            <div class="s_i">
+                                <img src="../assets/icons/email.svg" alt="">
+                                <div>
+                                    <h4>Email xabarnomalar</h4>
+                                    <p>Haftalik hisobotlar</p>
+                                </div>
+                            </div>
+                            <label class="d">
+                                <input type="checkbox">
+                                <span class="e"></span>
+                            </label>
+                        </div>
+
+                        <div class="s_r">
+                            <div class="s_i">
+                                <img src="../assets/icons/globus_oq.svg" alt="">
+                                <div>
+                                    <h4>Tungi rejim</h4>
+                                    <p>Qorong'i interfeys</p>
+                                </div>
+                            </div>
+                            <label class="d">
+                                <input type="checkbox">
+                                <span class="e"></span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="m_r">
+                    <div class="card statistika_p">
+                        <div class="b">
+                            <img src="../assets/icons/pul_d_b.svg" alt="">
+                            <h3>Statistika</h3>
+                        </div>
+
+                        <div class="st_l">
+                            <div class="st_i">
+                                <img src="../assets/icons/sana_kok.svg" alt="">
+                                <div>
+                                    <p>Ro'yxatdan o'tgan</p>
+                                    <h4 class="royxat">15 Yanvar, 2026</h4>
+                                </div>
+                            </div>
+                            <div class="st_i">
+                                <img src="../assets/icons/hamyon_y.svg" alt="">
+                                <div>
+                                    <p>Jami tranzaksiyalar</p>
+                                    <h4>0</h4>
+                                </div>
+                            </div>
+                            <div class="st_i">
+                                <img src="../assets/icons/pul.svg" alt="">
+                                <div>
+                                    <p>Jami xarajat</p>
+                                    <h4>0 so'm</h4>
+                                </div>
+                            </div>
+                            <div class="st_i">
+                                <img src="../assets/icons/pul_d.svg" alt="">
+                                <div>
+                                    <p>Jami daromad</p>
+                                    <h4>0 so'm</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card xisob_harakatlari">
+                        <div class="b">
+                            <h3>Hisob harakatlari</h3>
+                        </div>
+
+                        <div class="a_l">
+                            <button class="s_button">
+                                <img src="../assets/icons/joylashuv.svg" alt="">
+                                <span>Manzilni yangilash</span>
+                            </button>
+                            <button class="s_button s_button_b">
+                                <img src="../assets/icons/hamyon_qora.svg" alt="">
+                                <span>Balans</span>
+                            </button>
+                            <button class="s_button">
+                                <img src="../assets/icons/xavfsizlik.svg" alt="">
+                                <span>Maxfiylik sozlamalari</span>
+                            </button>
+                            <hr class="f">
+                            <button class="s_button logout">
+                                <img src="../assets/icons/chiqish.svg" alt="">
+                                <span>Hisobdan chiqish</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="card songi_faoliyat">
+                        <div class="b">
+                            <h3>So'nggi faoliyat</h3>
+                        </div>
+
+                        <div class="ac_l">
+                            <div class="a_i">
+                                <span class="nuqta green"></span>
+                                <div>
+                                    <h4>Parol yangilandi</h4>
+                                    <p>1 soat oldin</p>
+                                </div>
+                            </div>
+                            <div class="a_i">
+                                <span class="nuqta blue"></span>
+                                <div>
+                                    <h4>Profil tahrirlandi</h4>
+                                    <p>1 kun oldin</p>
+                                </div>
+                            </div>
+                            <div class="a_i">
+                                <span class="nuqta purple"></span>
+                                <div>
+                                    <h4>Yangi qurilma</h4>
+                                    <p class="yangi_qurilma">1 kun oldin</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../js/profil.js"></script>
+</body>
+
+</html>

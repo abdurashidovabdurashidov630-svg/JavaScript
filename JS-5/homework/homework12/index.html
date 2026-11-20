@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <form>
+        <h1>Talabani Ro'yxatga Olish</h1>
+        <hr>
+        <label for="Ism">Ism</label>
+        <input id="Ism" type="text" placeholder="Masalan: Sardor">
+        <label for="Familiya">Familiya</label>
+        <input id="Familiya" type="text" placeholder="Masalan: Rahimov">
+        <label for="Yosh">Yosh</label>
+        <input id="Yosh" type="number" placeholder="18">
+        <label for="TEL">Telefon raqam</label>
+        <input id="TEL" type="number" placeholder="+998901234567">
+        <label for="Shaxsiy">Shaxsiy kabinet paroli</label>
+        <div class="position">
+            <input type="password" class="Shaxsiy" placeholder="Kamida 6 ta belgi" style="width: 700px;">
+            <button type="button" class="eye" title="Parolni ko'rsatish"
+                style="background-color: transparent; border: none;">👁️</button>
+        </div>
+        <label for="t">Ta'lim yo'nalishi</label>
+        <select>
+            <option value="">Tanlang...</option>
+            <option value="">Web Dasturlash</option>
+            <option value="">Kiber Xavfsizlik</option>
+            <option value="">Kompyuter Savodxonligi</option>
+        </select>
+        <label for="o">O'qish vaqti</label>
+        <div class="div">
+            <div>
+                <input type="radio" id="o" name="a"> <label for="o">Ertalab</label>
+            </div>
+            <div>
+                <input type="radio" id="oo" name="a"> <label for="oo">Abeddan keyin</label>
+            </div>
+        </div>
+        <div>
+            <input id="checkbox" type="checkbox"><label for="checkbox">Qoidalarga roziman</label>
+        </div>
+        <button type="submit"
+            style="color: white; background-color: blue; border: none; font-size: 20px; height: 36px; border-radius: 10px;">Saqlash
+            va Chiqarish</button>
+    </form>
+    <div class="form_malumotlari">
+        <h1>Ro'yxatdagi Talabalar</h1>
+        <hr>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>

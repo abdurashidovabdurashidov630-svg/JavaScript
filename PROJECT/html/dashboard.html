@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="../css/dashboard.css">
+</head>
+
+<body>
+    <div class="left">
+        <div class="xarajatlar">
+            <img src="../assets/icons/Container.svg" alt="img">
+            <div class="icon_h1">
+                <h1>Xarajatlar</h1>
+                <p>Boshqaruv tizimi</p>
+            </div>
+        </div>
+        <div class="sections">
+            <button class="dashboard">
+                <img src="../assets/icons/dashboard.svg" alt="img">
+                <p>Dashboard</p>
+            </button>
+            <button class="a tranzaksiyalar">
+                <img src="../assets/icons/tranzaksiyalar.svg" alt="img">
+                <p>Tranzaksiyalar</p>
+            </button>
+            <button class="a file">
+                <img src="../assets/icons/file.svg" alt="img">
+                <p>Kategoriyalar</p>
+            </button>
+            <button class="a statistika">
+                <img src="../assets/icons/statistika.svg" alt="img">
+                <p>Statistika <sub class="Tez_kunda">Tez kunda</sub></p>
+            </button>
+            <button class="a user">
+                <img src="../assets/icons/user.svg" alt="img">
+                <p>Profil</p>
+            </button>
+        </div>
+    </div>
+    <div class="right">
+        <div class="main">
+            <div class="h1_date">
+                <div class="h1_p">
+                    <h1>Dashboard</h1>
+                    <p>Xarajatlaringizni boshqaring</p>
+                </div>
+                <div class="i_d">
+                    <img src="../assets/icons/date.svg" alt="img">
+                    <p class="d_p"></p>
+                </div>
+            </div>
+            <div class="money">
+                <div class="b balans">
+                    <div class="b_i">
+                        <p>Balans</p>
+                        <img src="../assets/icons/b.svg" alt="img">
+                    </div>
+                    <h1 style="color: black !important;">0 <span>so'm</span></h1>
+                    <p>Umumiy balans</p>
+                </div>
+                <div class="b daromad">
+                    <div class="b_i">
+                        <p>Daromad</p>
+                        <img src="../assets/icons/daromad.svg" alt="img">
+                    </div>
+                    <h1>0 <span>so'm</span></h1>
+                    <p>Ushbu oy</p>
+                </div>
+                <div class="b xarajat">
+                    <div class="b_i">
+                        <p>Xarajat</p>
+                        <img src="../assets/icons/xarajat.svg" alt="img">
+                    </div>
+                    <h1>0 <span>so'm</span></h1>
+                    <p>Ushbu oy</p>
+                </div>
+            </div>
+            <div class="st_kb">
+                <div class="c s_t">
+                    <div class="h1_i_p">
+                        <h1
+                            style="font-weight: 500; font-size: 24px; letter-spacing: -0.44px; color: rgba(10, 10, 10, 1);">
+                            So'nggi tranzaksiyalar</h1>
+                        <button
+                            style="width: 153px; cursor: pointer; height: 20px; display: flex; align-items: center; gap: 5px; border: none; background-color: transparent;">
+                            <img src="../assets/icons/eye.svg" alt="👁️" style="width: 18px;">
+                            <p
+                                style="font-weight: 500; font-size: 17px; letter-spacing: -0.15px; color: rgba(3, 2, 19, 1);">
+                                Barchasini ko'rish</p>
+                        </button>
+                    </div>
+                    <div class="songi_tranzaksiyalar"></div>
+                </div>
+                <div class="c k_b"></div>
+            </div>
+        </div>
+    </div>
+    <script src="../js/dashboard.js"></script>
+</body>
+
+</html>

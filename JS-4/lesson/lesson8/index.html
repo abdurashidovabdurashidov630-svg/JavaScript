@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="module">
+        // Tashqi .js file larni script tagida ishlatish uchun
+        // script tagi type  "module" deb e'lon qilinishi shart.!!!
+
+        // import eshmat, {getFullName, arr} from "./script.js"
+        // let res = getFullName("Abdurahmon","Abdurashidov")
+        // console.log(res); 
+
+        import * as data from "./script.js"
+        console.log(data.arr);
+        console.log(data.getFullName("Abdurahmon","Abdurashidov"));
+        console.log(data.default)
+    </script>
+</body>
+</html>

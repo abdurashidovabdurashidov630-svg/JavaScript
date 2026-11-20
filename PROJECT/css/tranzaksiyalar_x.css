@@ -1,0 +1,478 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  font-family: sans-serif;
+  overflow: hidden;
+}
+
+body .left {
+  height: 100%;
+  width: 256px;
+  border-right: 2px solid rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 1);
+}
+
+body .right {
+  width: 100%;
+  height: 100%;
+}
+
+.xarajatlar {
+  width: 100%;
+  height: 95px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 13.99px;
+}
+
+.xarajatlar .icon_h1 {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.xarajatlar img {
+  width: 40px;
+}
+
+.xarajatlar .icon_h1 h1 {
+  font-weight: 600;
+  font-size: 20px;
+  color: rgba(10, 10, 10, 1);
+  letter-spacing: -0.45px;
+}
+
+.xarajatlar .icon_h1 p {
+  font-weight: 400;
+  font-size: 13px;
+  color: rgba(113, 113, 130, 1);
+  letter-spacing: 0px;
+}
+
+.sections {
+  display: flex;
+  flex-direction: column;
+  padding: 16px 16px 0 16px;
+  gap: 3.99px;
+}
+
+.a {
+  border: none;
+  background-color: transparent;
+}
+
+.sections button {
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 11.99px;
+  height: 47.97px;
+  border-radius: 10px;
+  padding: 0 0 0 16px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.sections button img {
+  width: 20px;
+}
+
+.tranzaksiyalar {
+  background-color: black;
+}
+
+.sections button p {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: -0.31px;
+  color: rgba(113, 113, 130, 1);
+}
+
+.tranzaksiyalar p {
+  color: white !important;
+}
+
+.statistika {
+  position: relative;
+}
+
+.Tez_kunda {
+  background-color: rgba(127, 255, 0, 0.3);
+  width: 55px;
+  color: green;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  position: absolute;
+  right: 18px;
+  top: 16px;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  padding: 31.99px;
+  display: flex;
+  flex-direction: column;
+  gap: 23.99px;
+  overflow-y: auto;
+}
+
+.h1_date {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.h1_p {
+  display: flex;
+  flex-direction: column;
+  gap: 3.99px;
+}
+
+.h1_p h1 {
+  font-weight: 600;
+  font-size: 30px;
+  letter-spacing: 0.4px;
+  color: rgba(10, 10, 10, 1);
+}
+
+.h1_p p {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: -0.31px;
+  color: rgba(113, 113, 130, 1);
+}
+
+.Yangi_tranzaksiya {
+  width: 185.16px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: rgba(3, 2, 19, 1);
+  border: none;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.Yangi_tranzaksiya img {
+  width: 16px;
+}
+
+.Yangi_tranzaksiya p {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: -0.31px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.inp_s {
+  position: relative;
+}
+
+.inp_s img {
+  width: 16px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 15px;
+}
+
+.inp_s input {
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  background-color: rgba(243, 243, 245, 1);
+  padding: 12px 20px 12px 40px;
+  font-size: 16px;
+  outline: none;
+}
+
+.inp_s input::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: -0.31px;
+  color: rgba(10, 10, 10, 0.5);
+}
+
+.tranzaksiyalar_wrapper {
+  width: 100%;
+  height: 100%;
+  border-radius: 14px;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  padding: 23.99px;
+  display: flex;
+  flex-direction: column;
+  gap: 23.99px;
+  background: white;
+}
+
+.b_d_x {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.tranzaksiyalar_wrapper form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.inp_s input{
+  width: 829.39453125px;
+}
+.tranzaksiyalar_wrapper form .c {
+  width: 100%;
+  height: 31.99px;
+  border-radius: 10px;
+  border: none;
+  font-size: 14px;
+  letter-spacing: -0.15px;
+  cursor: pointer;
+  background-color: rgba(243, 243, 245, 1);
+  color: rgba(10, 10, 10, 1);
+}
+
+.tranzaksiyalar_wrapper form .xarajat_b {
+  background-color: rgba(3, 2, 19, 1);
+  color: rgba(255, 255, 255, 1);
+}
+
+.qoshilgan_tranzaksiyalar_wrapper {
+  max-height: 400px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  overflow-y: auto;
+}
+
+.qoshilgan_tranzaksiyalar_wrapper .qoshilgan_tranzaksiya {
+  width: 100%;
+  min-height: 81.24px;
+  border-radius: 10px;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.img_n_k_s {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.n_k_s {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.k_n_s {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.k_n_s .i_s {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.s_t_d h1 {
+  font-weight: 600;
+  letter-spacing: -0.44px;
+  font-size: 25px;
+}
+
+.s_t_d {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.s_t_d img {
+  cursor: pointer;
+  width: 18px;
+}
+
+.Yangi_tranzaksiya_inp {
+  width: 448px;
+  border-radius: 14px;
+  background-color: rgba(255, 255, 255, 1);
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.15);
+  z-index: 1000;
+}
+
+.Yangi_tranzaksiya_inp .h1_x {
+  padding: 23.99px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.Yangi_tranzaksiya_inp .h1_x h1 {
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: -0.45px;
+  color: rgba(10, 10, 10, 1);
+}
+
+.Yangi_tranzaksiya_inp .h1_x img {
+  cursor: pointer;
+}
+
+.inps {
+  padding: 23.99px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.inps label {
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: -0.15px;
+  color: rgba(10, 10, 10, 1);
+}
+
+.inps input,
+.inps select {
+  width: 100%;
+  height: 40px;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  background-color: rgba(243, 243, 245, 1);
+  border-radius: 10px;
+  font-size: 16px;
+  padding: 0 12px;
+  outline: none;
+}
+
+.inps select {
+  color: rgba(10, 10, 10, 1);
+  height: 45px;
+}
+
+.inp_l {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.b_l {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.b_l .btns {
+  display: flex;
+  gap: 11.9px;
+}
+
+.b_l button {
+  width: 100%;
+  height: 49.22px;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  border-radius: 10px;
+  cursor: pointer;
+  background: white;
+}
+
+.b_l button img {
+  width: 20px;
+}
+
+.b_l button p {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: -0.31px;
+  color: rgba(10, 10, 10, 1);
+}
+
+.b_l button.active_type {
+  border-color: rgba(3, 2, 19, 1);
+  background-color: rgba(3, 2, 19, 0.05);
+}
+
+.b_q {
+  padding-top: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 11.99px;
+}
+
+.b_q button {
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 1);
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  letter-spacing: -0.31px;
+  font-weight: 500;
+  color: rgba(10, 10, 10, 1);
+  cursor: pointer;
+}
+
+.b_q_q:disabled {
+  background-color: rgba(3, 2, 19, 0.3) !important;
+  color: rgba(255, 255, 255, 0.6) !important;
+  cursor: not-allowed !important;
+  border-color: transparent !important;
+}
+
+.b_q_q:not(:disabled) {
+  background-color: rgba(3, 2, 19, 1) !important;
+  color: white !important;
+  cursor: pointer !important;
+}
+.b_q_q:disabled {
+  background-color: rgba(3, 2, 19, 0.3) !important;
+  color: rgba(255, 255, 255, 0.6) !important;
+  cursor: not-allowed !important;
+  border-color: transparent !important;
+}
+
+.b_q_q:not(:disabled) {
+  background-color: rgba(3, 2, 19, 1) !important;
+  color: white !important;
+  cursor: pointer !important;
+}
+
+.b_l button.active_type {
+  border-color: rgba(3, 2, 19, 1);
+  background-color: rgba(3, 2, 19, 0.05);
+}

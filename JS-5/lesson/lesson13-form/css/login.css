@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  font-family: sans-serif;
+  background-color: rgb(11, 8, 22);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form {
+  width: 750px;
+  height: 450px;
+  border: 2px solid rgb(122, 43, 226);
+  box-shadow: 0 0 20px rgb(122, 43, 226);
+  position: relative;
+  overflow: hidden;
+  color: white;
+}
+form .box:first-child {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+form .box:last-child {
+  position: absolute;
+  width: 60%;
+  height: 200%;
+  background: linear-gradient(102deg, rgb(25, 3, 54), rgb(122, 43, 226));
+  right: -150px;
+  top: -300px;
+  transform: rotate(-40deg);
+  border: 2px solid rgb(122, 43, 226);
+}
+form .box:last-child h1 {
+  position: absolute;
+  left: 50px;
+  bottom: 48%;
+  transform: translateY(-50);
+  transform: rotate(40deg);
+  text-align: right;
+  font-size: 37px;
+  text-transform: uppercase;
+}
+form .box:last-child p {
+  transform: rotate(40deg);
+  text-align: right;
+  position: absolute;
+  left: 20px;
+  bottom: 42%;
+  transform: translateY(-50);
+  letter-spacing: 1px;
+}
+
+/* ------------------------- */
+
+form .box:first-child .content {
+  width: 280px;
+  position: absolute;
+  left: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+form .box:first-child .content h2 {
+  font-size: 33px;
+  margin: 20px;
+}
+form .box:first-child .content .inp__box {
+  position: relative;
+  width: 100%;
+}
+form .box:first-child .content .inp__box input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 17px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid white;
+  outline: none;
+  color: white;
+}
+form .box:first-child .content .inp__box input::placeholder {
+  color: white;
+}
+form .box:first-child .content .inp__box img {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  cursor: pointer;
+}
+form .box:first-child .content .inp__box .lock {
+  display: none;
+}
+form .box:first-child .content button {
+  width: 100%;
+  padding: 13px 0;
+  border-radius: 25px;
+  border: none;
+  font-weight: 900;
+  font-size: 17px;
+  color: white;
+  background: linear-gradient(
+    rgb(83, 19, 285),
+    rgb(107, 42, 226),
+    rgb(83, 19, 285)
+  );
+  cursor: pointer;
+}
+form .box:first-child .content button:hover {
+  background: linear-gradient(
+    rgb(90, 21, 202),
+    rgb(112, 44, 239),
+    rgb(90, 21, 202)
+  );
+}
+form .box:first-child .content p{
+  font-size: 15px;
+}
+form .box:first-child .content p a{
+  color: rgb(102, 32, 208);
+  font-size: 14px;
+  text-decoration: none;
+}

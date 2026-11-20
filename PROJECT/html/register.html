@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="../css/register.css">
+</head>
+
+<body>
+    <form>
+        <div class="header">
+            <img src="../assets/icons/Container.svg" alt="img">
+            <div class="h1_p">
+                <h1>Hisob yaratish</h1>
+                <p>Ma'lumotlaringizni kiriting</p>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="form">
+                <div class="l_e">
+                    <label for="ism">Ism</label>
+                    <div class="email_icon">
+                        <img src="../assets/icons/user.svg" alt="img">
+                        <input type="text" placeholder="Ismingiz" id="ism">
+                    </div>
+                </div>
+                <div class="l_e">
+                    <label for="email">Email</label>
+                    <div class="email_icon">
+                        <img src="../assets/icons/email.svg" alt="img">
+                        <input type="email" placeholder="email@example.com" id="email">
+                    </div>
+                </div>
+                <div class="l_e">
+                    <label for="parol">Parol</label>
+                    <div class="email_icon">
+                        <img style="cursor: pointer;" class="close" src="../assets/icons/lock.svg" alt="img">
+                        <img style="cursor: pointer; width: 19px; display: none;" class="open"
+                            src="../assets/icons/lock-open.svg" alt="img">
+                        <input type="password" placeholder="••••••••" id="parol">
+                    </div>
+                </div>
+                <div class="l_e">
+                    <label for="parol_t">Parolni tasdiqlang</label>
+                    <div class="email_icon">
+                        <img style="cursor: pointer;" class="close2" src="../assets/icons/lock.svg" alt="img">
+                        <img style="cursor: pointer; width: 19px; display: none;" class="open2"
+                            src="../assets/icons/lock-open.svg" alt="img">
+                        <input type="password" placeholder="••••••••" id="parol2">
+                    </div>
+                </div>
+                <button type="button" class="btn">Ro'yxatdan o'tish</button>
+            </div>
+            <p>Hisobingiz bormi? <a href="../html/login.html">Kirish</a></p>
+        </div>
+    </form>
+    <script src="../js/register.js"></script>
+</body>
+
+</html>

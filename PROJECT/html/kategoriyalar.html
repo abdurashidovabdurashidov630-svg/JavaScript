@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kategoriyalar</title>
+    <link rel="stylesheet" href="../css/kategoriyalar.css">
+</head>
+
+<body>
+    <div class="left"
+        style="width: 256px !important; min-width: 256px !important; max-width: 256px !important; flex: 0 0 256px !important; position: relative; height: 100vh; overflow: hidden;">
+        <div class="xarajatlar">
+            <img src="../assets/icons/Container.svg" alt="img">
+            <div class="icon_h1">
+                <h1>Xarajatlar</h1>
+                <p>Boshqaruv tizimi</p>
+            </div>
+        </div>
+        <div class="sections">
+            <button class="a dashboard">
+                <img src="../assets/icons/dashboard_grey.svg" alt="img">
+                <p>Dashboard</p>
+            </button>
+            <button class="a tranzaksiyalar">
+                <img src="../assets/icons/tranzaksiyalar.svg" alt="img">
+                <p>Tranzaksiyalar</p>
+            </button>
+            <button class="file">
+                <img src="../assets/icons/file_white.svg" alt="img">
+                <p>Kategoriyalar</p>
+            </button>
+            <button class="a statistika">
+                <img src="../assets/icons/statistika.svg" alt="img">
+                <p>Statistika <sub class="Tez_kunda">Tez kunda</sub></p>
+            </button>
+            <button class="a user">
+                <img src="../assets/icons/user.svg" alt="img">
+                <p>Profil</p>
+            </button>
+        </div>
+    </div>
+
+    <div class="right" style="flex: 1 !important; min-width: 0 !important; overflow-y: auto; height: 100vh;">
+        <div class="main">
+            <div class="h1_date">
+                <div class="h1_p">
+                    <h1>Kategoriyalar</h1>
+                    <p>Xarajatlaringizni kategoriyalar bo'yicha boshqaring</p>
+                </div>
+                <button class="Yangi_kategoriya">
+                    <img src="../assets/icons/plus.svg" alt="+">
+                    <p>Yangi kategoriya</p>
+                </button>
+            </div>
+            <div class="kategories"></div>
+            <div class="umumiy_xarajatlar">
+                <div class="h1_div">
+                    <h1>Umumiy xarajatlar</h1>
+                </div>
+                <div class="u_x_k"></div>
+            </div>
+        </div>
+    </div>
+
+    <form class="Yangi_tranzaksiya_inp">
+        <div class="h1_x">
+            <h1>Yangi kategoriya</h1>
+            <img class="x" src="../assets/icons/x.svg" alt="x">
+        </div>
+        <div class="inps">
+            <div class="inp_l">
+                <label for="nomi">Kategoriya nomi</label>
+                <input type="text" placeholder="Masalan: Ovqat" id="nomi">
+            </div>
+
+            <div class="icon-btns-container">
+                <label>Icon tanlang</label>
+                <div class="btns">
+                    <button type="button"><img src="../assets/icons/savatcha.svg" alt="icon"></button>
+                    <button type="button"><img src="../assets/icons/car.svg" alt="icon"></button>
+                    <button type="button"><img src="../assets/icons/uy.svg" alt="icon"></button>
+                    <button type="button"><img src="../assets/icons/pleysteyshn.svg" alt="icon"></button>
+                    <button type="button"><img src="../assets/icons/kofe.svg" alt="icon"></button>
+                    <button type="button"><img src="../assets/icons/like.svg" alt="icon"></button>
+                </div>
+                <div class="btns">
+                    <button type="button"><img src="../assets/icons/sumka.svg" alt="icon"></button>
+                    <button type="button"><img src="../assets/icons/sovga.svg" alt="icon"></button>
+                    <button type="button"><img src="../assets/icons/telefon.svg" alt="icon"></button>
+                    <button type="button"><img src="../assets/icons/book.svg" alt="icon"></button>
+                    <button type="button"><img src="../assets/icons/kiyim.svg" alt="icon"></button>
+                    <button type="button"><img src="../assets/icons/tushlik.svg" alt="icon"></button>
+                </div>
+            </div>
+
+            <div class="inp_l">
+                <label>Rang tanlang</label>
+                <div style="display: flex; flex-direction: column; gap: 8px;">
+                    <div class="btns color-picker-row">
+                        <button type="button"></button>
+                        <button type="button"></button>
+                        <button type="button"></button>
+                        <button type="button"></button>
+                        <button type="button"></button>
+                        <button type="button"></button>
+                    </div>
+                    <div class="btns color-picker-row">
+                        <button type="button"></button>
+                        <button type="button"></button>
+                        <button type="button"></button>
+                        <button type="button"></button>
+                        <button type="button"></button>
+                        <button type="button"></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="b_q">
+                <button class="b_q_b" type="button">Bekor qilish</button>
+                <button class="b_q_q" type="button" disabled>Qo'shish</button>
+            </div>
+        </div>
+    </form>
+
+    <script src="../js/kategoriyalar.js"></script>
+</body>
+
+</html>

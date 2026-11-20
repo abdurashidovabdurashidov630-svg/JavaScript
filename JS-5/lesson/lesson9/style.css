@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    font-family: sans-serif;
+    background-color: rgba(77, 2, 131,0.4);
+}
+p,span{
+    font-size: 40px;
+    color: rgb(80,80,80);
+    letter-spacing: 2px;
+    position: absolute;
+    top: 100px;
+    text-shadow: 5px 5px 5px rgb(144, 144, 144);
+}
+span{
+    position: absolute;
+    right: 400px;
+}
+textarea{
+    background-color: rgb(244, 167, 167);
+    border: 1px solid white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgb(144, 144, 144);
+    padding: 20px;
+    position: absolute;
+    bottom: 100px;
+    color: white;
+}
+::placeholder{
+    color: white;
+}

@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: sans-serif;
+  background: linear-gradient(to right, #e2e2e2, #c7d6fd);
+  display: grid;
+  place-content: center;
+}
+
+form {
+  width: 700px;
+  height: 500px;
+  background-color: #fff;
+  border-radius: 30px;
+  display: flex;
+}
+
+form .left {
+  width: 50%;
+  height: inherit;
+  background-color: #7094e6;
+  border-radius: 30px 130px 130px 30px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+form .left button {
+  padding: 10px 35px;
+  border: 1px solid white;
+  color: white;
+  background-color: transparent;
+  border-radius: 5px;
+  font-weight: 700;
+  transition: 0.3s;
+}
+
+form .left button:hover {
+  background-color: #769cf3;
+  cursor: pointer;
+}
+
+form .left button:active {
+  background-color: #698fe8;
+}
+
+form .right {
+  width: 50%;
+  height: inherit;
+  padding: 0 30px;
+  border-radius: 0 30px 30px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+form .right .box {
+  width: 100%;
+  position: relative;
+}
+
+form .right .box input {
+  width: inherit;
+  padding: 13px 50px 13px 15px;
+  background-color: #eee;
+  border: 1px solid #eee;
+  outline: none;
+  border-radius: 7px;
+}
+
+form .right .box .open {
+  display: none;
+}
+
+form .right .box img {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+}
+
+form .right a {
+  color: rgb(102, 102, 102);
+  text-decoration: none;
+  font-size: 14px;
+}
+
+form .right button {
+  width: 100%;
+  padding: 13px 0;
+  border: none;
+  background-color: #698fe8;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  border-radius: 7px;
+}
+
+form .right button:hover {
+  background-color: #769bf2;
+  cursor: pointer;
+  box-shadow: 0 2px 2px #6c6c6c;
+}
+
+form .right button:active {
+  box-shadow: none;
+}
+
+form .right .wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+form .right .wrapper .item {
+  width: 35px;
+  height: 37px;
+  display: grid;
+  place-content: center;
+  border: 1.5px solid rgb(216, 216, 216);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form .right .wrapper .item img {
+  width: 22px;
+}
+
+form .right img {
+  width: 20px;
+}
+
+form .right .box .open:hover,
+form .right .box .close:hover {
+  cursor: pointer;
+}
+
+form .right a,
+form .right a {
+  color: rgb(102, 102, 102);
+  text-decoration: none;
+  font-size: 14px;
+}
